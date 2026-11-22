@@ -1,0 +1,54 @@
+[01] Preprocesamiento
+  metabolitos: 20 (ESI+ 10, ESI- 10); muestras: 58
+  RSD en QC: mediana 7.2 %, máx 26.7 % (20/20 metabolitos con RSD <= 30 %)
+  valores faltantes: 0; ceros: 0 -> no se requiere imputación
+  verificación contra la matriz usada en MetaboAnalyst: IDÉNTICA
+
+[02] Análisis univariado
+  figura -> results/figures/02_normalizacion_boxplots.png
+  FDR < 0.05: 0 metabolitos
+  p crudo < 0.05: 2 -> beta-Muricholic acid, Gluconolactone
+  |FC| >= 1.5: 14 (10 mayores a 34 °C, 4 menores a 34 °C)
+                           log2FC   p_raw  FDR_BH
+beta-Muricholic acid      -3.3980  0.0086  0.1711
+Gluconolactone            -1.0767  0.0348  0.2670
+L-Histidine                0.8813  0.0555  0.2670
+Palmitoleic acid          -1.0815  0.0623  0.2670
+Agmatine                   1.1158  0.0677  0.2670
+homo-gamma-Linolenic acid -0.5458  0.0801  0.2670
+  figura -> results/figures/02_volcano_plot.png
+  figura -> results/figures/02_boxplots_top6.png
+
+[03] Análisis multivariado
+  PCA: PC1 = 69.9 %, PC2 = 11.2 %, PC3 = 5.4 % (acumulado PC1-2 = 81.0 %)
+  figura -> results/figures/03_PCA_scree_scores.png
+  PLS-DA LOOCV:
+ componentes  exactitud_LOOCV    R2    Q2
+           1            0.667 0.321 0.069
+           2            0.833 0.840 0.463
+           3            0.917 0.931 0.586
+           4            1.000 0.968 0.703
+           5            0.917 0.991 0.752
+  Permutación (1000x, 2 comp.): Q2 obs = 0.463, p = 0.010
+  Permutación (1000x, 5 comp.): Q2 obs = 0.752, p = 0.004
+  figura -> results/figures/03_PLSDA_CV_permutacion.png
+  VIP >= 1 (comp. 1): beta-Muricholic acid, Agmatine, L-Glutamic acid, L-Threonine, L-Histidine, Taurocholic acid
+  figura -> results/figures/03_PLSDA_VIP.png
+  figura -> results/figures/03_heatmap_clustering.png
+  PC1 por muestra 34 °C: AH34_1=4.21, AH34_2=4.73, AH34_3=3.88, AH34_4=-0.79, AH34_5=-1.98, AH34_6=-2.48
+
+[04] Análisis de rutas (resultados MetaboAnalyst)
+  rutas evaluadas: 29
+  rutas con p crudo < 0.05: 1 (Pentose phosphate pathway)
+  rutas con FDR < 0.05: 0
+  mayor impacto topológico:
+                                                     Hits     Raw p      FDR   Impact
+Ruta                                                                                 
+Phenylalanine, tyrosine and tryptophan biosynthesis     2  0.192430  0.27902  1.00000
+Phenylalanine metabolism                                2  0.192430  0.27902  0.44000
+Alanine, aspartate and glutamate metabolism             3  0.234600  0.29164  0.43197
+Histidine metabolism                                    2  0.099753  0.26525  0.27083
+Arginine biosynthesis                                   3  0.145350  0.26525  0.25252
+  figura -> results/figures/04_rutas_impacto.png
+
+Pipeline completo en 24.0 s. Resultados en results/tables y results/figures.

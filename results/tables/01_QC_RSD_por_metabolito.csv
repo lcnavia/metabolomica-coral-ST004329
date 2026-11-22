@@ -1,0 +1,21 @@
+,ion_mode,RSD_QC_%,pasa_RSD<=30%
+L-Tryptophan,ESI-,1.2,True
+L-Phenylalanine,ESI+,1.8,True
+L-Glutamic acid,ESI-,2.4,True
+L-Threonine,ESI-,3.3,True
+L-Arginine,ESI+,3.7,True
+L-Lysine,ESI+,3.8,True
+Agmatine,ESI+,4.9,True
+Chenodeoxycholic acid,ESI-,6.5,True
+Gluconolactone,ESI+,6.7,True
+homo-gamma-Linolenic acid,ESI-,6.8,True
+L-Asparagine,ESI-,7.5,True
+Palmitoleic acid,ESI-,7.6,True
+L-Histidine,ESI+,7.8,True
+beta-Muricholic acid,ESI-,14.3,True
+L-Tyrosine,ESI+,15.8,True
+Choline,ESI+,19.3,True
+Taurocholic acid,ESI-,21.0,True
+cotinine-glucuronide,ESI+,24.0,True
+L-Malic acid,ESI+,25.7,True
+L-Aspartic acid,ESI-,26.7,True

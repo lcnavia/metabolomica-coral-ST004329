@@ -1,0 +1,30 @@
+Ruta,Total Cmpd,Hits,Raw p,-log10(p),Holm adjust,FDR,Impact,metabolitos_lista
+Pentose phosphate pathway,23,1,0.02961,1.5286,0.85868,0.26525,0.0,Gluconolactona (C00198)
+Biosynthesis of unsaturated fatty acids,35,1,0.074095,1.1302,1.0,0.26525,0.0,1 ácido graso insaturado (palmitoleico o DGLA)
+Histidine metabolism,14,2,0.099753,1.0011,1.0,0.26525,0.27083,"L-Histidina, L-Aspartato"
+Arginine and proline metabolism,36,2,0.10274,0.98827,1.0,0.26525,0.1236,"L-Arginina, Agmatina"
+Tyrosine metabolism,29,1,0.13703,0.8632,1.0,0.26525,0.12559,L-Tirosina
+Ubiquinone and other terpenoid-quinone biosynthesis,21,1,0.13703,0.8632,1.0,0.26525,0.0,
+Amino sugar and nucleotide sugar metabolism,43,1,0.13806,0.85994,1.0,0.26525,0.0,
+"Glycine, serine and threonine metabolism",34,2,0.13896,0.8571,1.0,0.26525,0.02465,"L-Treonina, Colina"
+Glutathione metabolism,26,1,0.13966,0.85492,1.0,0.26525,0.02912,
+Butanoate metabolism,15,1,0.13966,0.85492,1.0,0.26525,0.0,
+Porphyrin metabolism,30,1,0.13966,0.85492,1.0,0.26525,0.0,
+Nitrogen metabolism,6,1,0.13966,0.85492,1.0,0.26525,0.0,
+beta-Alanine metabolism,15,2,0.14386,0.84205,1.0,0.26525,0.0,
+Arginine biosynthesis,15,3,0.14535,0.83759,1.0,0.26525,0.25252,"L-Arginina, L-Aspartato, L-Glutamato"
+"Valine, leucine and isoleucine biosynthesis",8,1,0.15755,0.80258,1.0,0.26525,0.0,
+Glyoxylate and dicarboxylate metabolism,32,2,0.15794,0.80151,1.0,0.26525,0.0,
+Glycerophospholipid metabolism,36,1,0.16464,0.78347,1.0,0.26525,0.02771,
+One carbon pool by folate,26,1,0.16464,0.78347,1.0,0.26525,0.0,
+"Phenylalanine, tyrosine and tryptophan biosynthesis",4,2,0.19243,0.71574,1.0,0.27902,1.0,"L-Fenilalanina, L-Tirosina"
+Phenylalanine metabolism,9,2,0.19243,0.71574,1.0,0.27902,0.44,"L-Fenilalanina, L-Tirosina"
+Taurine and hypotaurine metabolism,8,1,0.22702,0.64394,1.0,0.29164,0.0,
+"Alanine, aspartate and glutamate metabolism",23,3,0.2346,0.62968,1.0,0.29164,0.43197,"L-Aspartato, L-Asparagina, L-Glutamato"
+Citrate cycle (TCA cycle),20,1,0.24135,0.61734,1.0,0.29164,0.04412,L-Malato
+Pyruvate metabolism,23,1,0.24135,0.61734,1.0,0.29164,0.0258,
+Nicotinate and nicotinamide metabolism,12,1,0.2759,0.55924,1.0,0.30774,0.0,
+Pantothenate and CoA biosynthesis,20,1,0.2759,0.55924,1.0,0.30774,0.0,
+Tryptophan metabolism,36,1,0.32658,0.48601,1.0,0.35077,0.14491,
+Lysine degradation,30,1,0.5307,0.27515,1.0,0.5307,0.0,
+Biotin metabolism,10,1,0.5307,0.27515,1.0,0.5307,0.0,
